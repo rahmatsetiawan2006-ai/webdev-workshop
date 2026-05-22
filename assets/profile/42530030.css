@@ -1,0 +1,40 @@
+.header{
+    background-color:goldenrod;
+    color:black;
+}
+
+.profile-detail{
+    background-color:black;
+}
+
+.nama{
+    color:goldenrod;
+}
+
+.profile-photo {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid goldenrod;
+}
+.profile-detail {
+    width: min(900px, 100%);
+    margin: 32px auto;
+    padding: 24px;
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 32px;
+    background-color: black;
+    border: 3px solid goldenrod;
+    border-radius: 16px;
+}
+
+ body{
+    background-color: black;
+ }
+
+ .back-link {
+    color:black;
+    background-color: goldenrod;
+ }
